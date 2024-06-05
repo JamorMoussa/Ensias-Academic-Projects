@@ -1,0 +1,8 @@
+grant {
+    // Grant permission to connect to the RMI registry on the server
+    permission java.net.SocketPermission "serverIP:1099", "connect";
+
+    // Grant permission to perform RMI lookups
+    permission java.rmi.security.AllPermission;
+};
+
