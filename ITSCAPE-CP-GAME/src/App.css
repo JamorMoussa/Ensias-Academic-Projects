@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.middle-div {
+  height: 100vh;
+  padding: 2%;
+}
+
+.frame {
+  background-color: #9D2EB0;
+}
+
+.main {
+  background-color: white;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: -1px 0px 80px -38px rgba(0,0,0,1);
+    -webkit-box-shadow: -1px 0px 80px -38px rgba(0,0,0,1);
+    -moz-box-shadow: -1px 0px 80px -38px rgba(0,0,0,1);
+}
+
+.left-div {
+  height: 100%;
+  background-color: #463F9E;
+  border-radius: 0px 10px 10px 0px;
+}
+
+
+
+.left-div {
+  height: 100%;
+}
+
+
+.logo {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  height: 65%;
+}
+
+
+.logo img {
+  width: 250px;
+}
+
+.common-btn {
+  border: 0px solid;
+  height: 40px;
+  border-radius: 5px;
+  color: white;
+  background-color: #815CD1;
+}
+
+.common-btn:active {
+  background-color: #b9a2eb;
+}
+
+.spin-Component {
+  height: 100px;
+  max-height: 100px;
+}
