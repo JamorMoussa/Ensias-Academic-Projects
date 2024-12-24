@@ -48,7 +48,10 @@ python3 predict.py
 
 ### The Demo : 
 
-https://github.com/JamorMoussa/SignLanguageTranslator/assets/116987044/185b0397-4544-4338-a48a-53f5cc7d30a1
+<video width="320" height="240" controls>
+  <source src="https://github.com/JamorMoussa/Ensias-Academic-Projects/raw/refs/heads/main/Sign-Language-Translator/video/Listen_to_me.mp4
+" type="video/mp4">
+</video> 
 
 
 Make sure you have the necessary dependencies installed and the virtual environment activated before running the prediction script.
